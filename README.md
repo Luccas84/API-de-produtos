@@ -1,5 +1,12 @@
 # 🛍️ API de Produtos — Projeto Local (Front + Back)
 
+# Meu Projeto
+
+Bem-vindo ao meu projeto!
+
+![Logo do Projeto](https://github.com/Luccas84/Cadastro-Login/blob/main/Projeto_15.png)
+
+
 Este é um projeto completo de **cadastro de produtos**, desenvolvido para rodar **localmente**, com integração entre **frontend e backend**, sem necessidade de banco de dados externo.  
 O objetivo é demonstrar de forma prática como o **JavaScript** no front pode se comunicar com uma **API Node.js** para criar, armazenar e listar produtos de forma simples.
 
