@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1761239450214,
+    "name": "Camiseta AC/DC - Highway to Hell",
+    "description": "Camiseta clássica preta com a lendária estampa do álbum Highway to Hell",
+    "price": "89.90",
+    "category": "Unissex",
+    "image": "https://stamp.jetassets.com.br/produto/multifotos/hd/20231127102128_1120998880_DZ.jpg"
+  },
+  {
+    "id": 1761239978325,
+    "name": "Camiseta Metallica - Master of Puppets ",
+    "description": "",
+    "price": "94.97",
+    "category": "Unissex",
+    "image": "https://stamp.jetassets.com.br/produto/multifotos/hd/20231117115111_4571995429_DZ.png"
+  },
+  {
+    "id": 1761240277862,
+    "name": "Camiseta Iron Maiden - The Trooper",
+    "description": "",
+    "price": "79.90",
+    "category": "Unissex",
+    "image": "https://stamp.jetassets.com.br/produtograde/20231113082639_8116991884_GZ.jpg"
+  },
+  {
+    "id": 1761755403354,
+    "name": "Camiseta AC/DC - Highway to Hell",
+    "description": "Camiseta clássica preta com a lendária estampa do álbum \"Highway to Hell\"",
+    "price": "89.90",
+    "category": "Unissex",
+    "image": "https://stamp.jetassets.com.br/produto/multifotos/hd/20231127102128_1120998880_DZ.jpg"
+  },
+  {
+    "id": 1761755683056,
+    "name": "Camiseta Pink Floyd - The Dark Side of the Moon",
+    "description": "Camiseta preta com o famoso prisma e espectro de luz do álbum The Dark Side of the Moon.",
+    "price": "85.47",
+    "category": "Unissex",
+    "image": "https://stamp.jetassets.com.br/produtograde/20231113083837_2943997057_GZ.jpg"
+  }
+]

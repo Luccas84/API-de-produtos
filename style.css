@@ -1,0 +1,168 @@
+/* Estilos gerais */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  margin: 0;
+}
+
+/* Container do formulário */
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Container da lista de produtos */
+.container-2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 0.5rem 0 0.2rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+/* Mensagem de sucesso */
+#message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #00ff99;
+}
+
+/* Lista de produtos */
+#productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+/* Cards de produtos */
+.product-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.product-card p {
+  font-size: 0.85rem;
+  margin: 0.2rem 0;
+}
+
+.product-card .price {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .container,
+  .container-2 {
+    max-width: 95%;
+    padding: 1.5rem;
+  }
+
+  #productList {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  #productList {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1rem;
+  }
+
+  .product-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .product-card p {
+    font-size: 0.75rem;
+  }
+
+  button {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+}
