@@ -4,7 +4,7 @@
 
 Bem-vindo ao meu projeto!
 
-![Logo do Projeto](https://github.com/Luccas84/Cadastro-Login/blob/main/Projeto_15.png)
+![Logo do Projeto](https://github.com/Luccas84/API-de-produtos/blob/main/Projeto_16.png)
 
 
 Este é um projeto completo de **cadastro de produtos**, desenvolvido para rodar **localmente**, com integração entre **frontend e backend**, sem necessidade de banco de dados externo.  
